@@ -27,9 +27,10 @@ canvas {
     width: 804px;
 }
 
-.toolbox > * {
+.toolbox>* {
     background-color: #fff;
     border: none;
+    border-radius: 50px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -40,6 +41,6 @@ canvas {
     width: 50px;
 }
 
-.toolbox > *:last-child {
+.toolbox>*:last-child {
     margin-left: auto;
 }
